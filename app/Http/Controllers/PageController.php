@@ -7,9 +7,7 @@ use App\Models\Movie;
 
 class PageController extends Controller
 {
-    public function index(){
-        $movies = Movie::all();
-        dd($movies);
-        return view('home');
+    public function index() {
+        return view('home', ['movies' => Movie::all()]);
     }
 }

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>
-        ciao mondo sono home page
-    </h1>
+<h1>
+    info da stamp
+</h1>
 @endsection
